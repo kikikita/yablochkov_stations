@@ -19,3 +19,39 @@ python main.py
 ![Взаимосвязь таблиц (4)](https://user-images.githubusercontent.com/110126453/201230094-d5fa88b1-dd50-436c-b61c-c282a62c573d.jpg)
 ![Взаимосвязь таблиц (5)](https://user-images.githubusercontent.com/110126453/201230105-e4229164-2b9c-4759-9694-148d749aa3d7.jpg)
 
+## Метрики
+
+•	Precision (точность) - доля объектов, названных классификатором положительными и при этом действительно являющимися положительными.
+
+$$ Precision = {TP \over (TP + FP)} $$
+
+•	Recall (полнота) - доля объектов положительного класса, найденных классификатором, из всех объектов положительного класса.
+
+$$ Recall = {TP \over (TP + FN)} $$
+
+•	F-мера - гармоническое среднее между точностью и полнотой. Она стремится к нулю, если точность или полнота стремится к нулю.
+
+$$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} $$
+
+## Гиперпараметры
+
+| hyperparameters | value |
+| ------------------- | ------------------- |
+| Batch Size | classifier: 16, embedder: 32 |
+| Epochs | classifier: 1, embedder: 1 |
+| Optimizer | torch.optim.AdamW(lr=1e-4, eps=1e-6) |
+| Warmup Steps | 5% batches ~ 1k |
+| Scheduler | WarmupLinear |
+
+## Результаты работы
+
+•	Сравение методов поиска
+| method  | speed |
+| ------------- | ------------- |
+| kNN | 230ms  |
+| Approximate NN | 180ms  |
+
+•	Тестовые метрики
+| Precission  | Recall | F-мера |
+| ------------- | ------------- | ------------- |
+| 0.98 | 0.18 | 0.31 |
