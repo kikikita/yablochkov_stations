@@ -13,9 +13,9 @@ pip install -r requirements.txt
 python main.py
 ```
 ## Feature ingeneering
-![Взаимосвязь таблиц (1)](https://user-images.githubusercontent.com/110126453/201216962-b8c29f53-ea02-4f15-8cba-389d1f223e98.jpg)
-![Взаимосвязь таблиц (2)](https://user-images.githubusercontent.com/110126453/201217028-653bafe0-879e-4bc3-83bd-01c94eb4a85b.jpg)
-![image](https://user-images.githubusercontent.com/110126453/201217101-1bb46489-a9aa-41a6-a4ba-d85c84c77754.png)
-![Снимок экрана 2022-11-11 012423](https://user-images.githubusercontent.com/110126453/201219927-50d40e8b-30de-4d73-913d-9c4e8ac1e0cf.png)
-![Снимок экрана 2022-11-11 011822](https://user-images.githubusercontent.com/110126453/201218103-01ba2dd3-7504-4c4e-8e46-37dda2744063.png)
+![Взаимосвязь таблиц (1)](https://user-images.githubusercontent.com/110126453/201230045-3055be8d-a81e-43b1-af05-a22e02a34121.jpg)
+![Взаимосвязь таблиц (2)](https://user-images.githubusercontent.com/110126453/201230064-2c0bbe90-2f93-4d2f-9efc-89a86143cbd8.jpg)
+![Взаимосвязь таблиц (3)](https://user-images.githubusercontent.com/110126453/201230083-c326f22d-7ddd-48ba-af21-58d2f4fdc112.jpg)
+![Взаимосвязь таблиц (4)](https://user-images.githubusercontent.com/110126453/201230094-d5fa88b1-dd50-436c-b61c-c282a62c573d.jpg)
+![Взаимосвязь таблиц (5)](https://user-images.githubusercontent.com/110126453/201230105-e4229164-2b9c-4759-9694-148d749aa3d7.jpg)
 
