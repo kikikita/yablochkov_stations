@@ -14,3 +14,4 @@ python main.py
 ```
 ## Feature ingeneering
 ![Взаимосвязь таблиц (1)](https://user-images.githubusercontent.com/110126453/201216962-b8c29f53-ea02-4f15-8cba-389d1f223e98.jpg)
+![Взаимосвязь таблиц (2)](https://user-images.githubusercontent.com/110126453/201217028-653bafe0-879e-4bc3-83bd-01c94eb4a85b.jpg)
