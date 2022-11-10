@@ -14,8 +14,8 @@ python main.py
 ```
 ## Feature ingeneering
 ```
-![Взаимосвязь таблиц (1)](https://user-images.githubusercontent.com/110126453/201212739-92237294-0864-4ac3-9503-a7e15c3fbaa4.jpg)
-![Взаимосвязь таблиц (2)](https://user-images.githubusercontent.com/110126453/201212875-25a80976-4da2-45b0-876d-77c971409c98.jpg)
+
+
 
 В ходе исследования установлены наиболее часто ломающиеся подсистемы:
 ![image](https://user-images.githubusercontent.com/110126453/201215153-76f59f3b-3a66-4cba-91b6-8291db9703de.png)
