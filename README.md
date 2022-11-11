@@ -103,4 +103,3 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 ![Взаимосвязь таблиц (7)](https://user-images.githubusercontent.com/110126453/201247722-5cc842c2-1fe6-4130-9e6e-c21fc7018ae7.jpg)
 
 •	Система может быть масштабирована на множество станций
-
