@@ -65,13 +65,27 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 | Leaf_estimation_iterations | 5 |
 | Max_ctr_complexity | 1 |
 
-## Результаты работы
+## Результаты экспериментов:
 
-•	Сравение методов поиска
-| method  | speed |
+•	График AUC
+
+<img width="974" alt="auc" src="https://user-images.githubusercontent.com/110126453/201235544-ec15fd0a-36c8-4432-8267-94a70c686602.png">
+
+•	График Accuracy
+
+<img width="974" alt="accuracy" src="https://user-images.githubusercontent.com/110126453/201235693-1e6b333f-210b-44fb-b285-e223a27d30a9.png">
+
+•	График F-1
+
+<img width="974" alt="f1" src="https://user-images.githubusercontent.com/110126453/201235760-47206225-4ae2-478d-8b09-37db90ab8099.png">
+
+•	Таблица сравнения качества моделей с разными гиперпараметрами
+
+| model name | accuracy | f-1 | precision | recall |
 | ------------- | ------------- |
-| kNN | 230ms  |
-| Approximate NN | 180ms  |
+| model | 0.9428 | 0.9657 | 0.9309 | 0.9339 |
+| fast model | 0.9430 | 0.9658 | 0.9395 | 0.9935 |
+| best model | 0.9434 | 0.9660 | 0.9413 | 0.9919 |
 
 •	Тестовые метрики
 | Precission  | Recall | F-мера |
