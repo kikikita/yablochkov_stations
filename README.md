@@ -35,6 +35,10 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 
 ## Гиперпараметры
 
+•	Подбор гиперпараметров: learning_rate & iterations
+
+<img width="975" alt="learningrate" src="https://user-images.githubusercontent.com/110126453/201232085-6279d7c1-9e2b-42ad-aba4-a5e494a6a320.png">
+
 | hyperparameters | value |
 | ------------------- | ---------------|
 | Iterations | 100 |
@@ -46,9 +50,6 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 | Rsm | 0.5 |
 | Leaf_estimation_iterations | 5 |
 | Max_ctr_complexity | 1 |
-
-•	Подбор гиперпараметров: learning_rate & iterations
-<img width="975" alt="learningrate" src="https://user-images.githubusercontent.com/110126453/201232085-6279d7c1-9e2b-42ad-aba4-a5e494a6a320.png">
 
 ## Результаты работы
 
