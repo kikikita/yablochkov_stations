@@ -1,4 +1,10 @@
-# Yablochkov charging stations for electric vehicles
+# Автомобильные зарядные станции Яблочков
+
+## Проблема
+Предсказание вероятного появления критических состояний на подсистемах станций до их фактического появления на основе данных об изменениях работы подсистем.
+
+## Решение
+Для решения данной проблемы был выбран CatBoost — метод машинного обучения, основанный на градиентном бустинге.
 
 ## Установка
 ```Linux Kernel Module
@@ -12,7 +18,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-## Feature ingeneering
+## Поиск фичей
 ![Взаимосвязь таблиц (1)](https://user-images.githubusercontent.com/110126453/201230045-3055be8d-a81e-43b1-af05-a22e02a34121.jpg)
 ![Взаимосвязь таблиц (2)](https://user-images.githubusercontent.com/110126453/201230064-2c0bbe90-2f93-4d2f-9efc-89a86143cbd8.jpg)
 ![Взаимосвязь таблиц (3)](https://user-images.githubusercontent.com/110126453/201230083-c326f22d-7ddd-48ba-af21-58d2f4fdc112.jpg)
@@ -89,11 +95,13 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 | fast model | 0.9430 | 0.9658 | 0.9395 | 0.9935 |
 | best model | 0.9434 | 0.9660 | 0.9413 | 0.9919 |
 
-• Feature importances
+• Важность фичей
 
 ![Взаимосвязь таблиц (6)](https://user-images.githubusercontent.com/110126453/201240730-5d6d8d28-54bf-4ea3-b331-90c95f59ae44.jpg)
 
 ## Устройство системы:
 
 ![Взаимосвязь таблиц (7)](https://user-images.githubusercontent.com/110126453/201247722-5cc842c2-1fe6-4130-9e6e-c21fc7018ae7.jpg)
+
+•	Система может быть масштабирована на множество станций
 
