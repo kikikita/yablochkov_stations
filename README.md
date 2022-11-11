@@ -1,6 +1,6 @@
 # Yablochkov charging stations for electric vehicles
 
-## Setup
+## Установка
 ```Linux Kernel Module
 conda create -n env_name --python=3.10
 
@@ -8,7 +8,7 @@ conda activate env_name
 
 pip install -r requirements.txt
 ```
-## Usage
+## Применение
 ```
 python main.py
 ```
@@ -20,6 +20,8 @@ python main.py
 ![Взаимосвязь таблиц (5)](https://user-images.githubusercontent.com/110126453/201230105-e4229164-2b9c-4759-9694-148d749aa3d7.jpg)
 
 ## Метрики
+
+• Accuracy – показатель, который описывает общую точность предсказания модели по всем классам. Рассчитывается как отношение количества правильных прогнозов к их общему количеству.
 
 •	Precision (точность) - доля объектов, названных классификатором положительными и при этом действительно являющимися положительными.
 
@@ -90,3 +92,8 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 • Feature importances
 
 ![Взаимосвязь таблиц (6)](https://user-images.githubusercontent.com/110126453/201240730-5d6d8d28-54bf-4ea3-b331-90c95f59ae44.jpg)
+
+## Устройство системы:
+
+![Взаимосвязь таблиц (7)](https://user-images.githubusercontent.com/110126453/201247722-5cc842c2-1fe6-4130-9e6e-c21fc7018ae7.jpg)
+
