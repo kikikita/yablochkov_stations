@@ -40,7 +40,7 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 <img width="975" alt="learningrate" src="https://user-images.githubusercontent.com/110126453/201232085-6279d7c1-9e2b-42ad-aba4-a5e494a6a320.png">
 
 |iterations |	test-Logloss-mean |	test-Logloss-std |	train-Logloss-mean | train-Logloss-std | test-AUC-mean |	test-AUC-std |
-| -- | ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
+| ----------| -------------- | --------------- | -------------- | --------------- | -------------- | --------------- |
 |0|	0.582369	| 0.001537	| 0.582387	| 0.001344|	| 0.850675 |	| 0.002726 |
 |1|	0.497803	| 0.001594	| 0.497844	| 0.001451|	| 0.850952 |	| 0.002529 |
 |2|	0.434688	| 0.001516	| 0.434740	| 0.001275|	| 0.851116 |	| 0.002798 |
