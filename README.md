@@ -36,10 +36,10 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 ## Гиперпараметры
 
 | hyperparameters | value |
-| ------------------- | ------------------- |
-| Iterations | classifier: 16, embedder: 32 |
-| learning_rate | classifier: 1, embedder: 1 |
-| Custom_loss | [AUC, Accuracy, F1 |
+| ------------------- | ---------------|
+| Iterations | 100 |
+| learning_rate | 0.1 |
+| Custom_loss | AUC, Accuracy, F1 |
 | Boosting_type | Plain |
 | Bootstrap_type | Bernoulli |
 | Subsample| 0.5 |
