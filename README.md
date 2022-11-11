@@ -87,3 +87,6 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 | fast model | 0.9430 | 0.9658 | 0.9395 | 0.9935 |
 | best model | 0.9434 | 0.9660 | 0.9413 | 0.9919 |
 
+• Feature importances
+
+![Взаимосвязь таблиц (6)](https://user-images.githubusercontent.com/110126453/201240730-5d6d8d28-54bf-4ea3-b331-90c95f59ae44.jpg)
