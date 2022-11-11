@@ -72,7 +72,7 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 | Leaf_estimation_iterations | 5 |
 | Max_ctr_complexity | 1 |
 
-## Результаты экспериментов:
+## Результаты экспериментов
 
 •	График AUC
 
@@ -98,8 +98,13 @@ Best validation Logloss score, not stratified: 0.2198±0.0044 on step 97
 
 ![Взаимосвязь таблиц (6)](https://user-images.githubusercontent.com/110126453/201240730-5d6d8d28-54bf-4ea3-b331-90c95f59ae44.jpg)
 
-## Устройство системы:
+## Устройство системы
 
 ![Взаимосвязь таблиц (7)](https://user-images.githubusercontent.com/110126453/201247722-5cc842c2-1fe6-4130-9e6e-c21fc7018ae7.jpg)
 
 •	Система может быть масштабирована на множество станций
+
+## Демонстрация работы
+
+<img width="600" alt="Снимок экрана 2022-11-11 054348" src="https://user-images.githubusercontent.com/110126453/201251409-854d812b-5c44-4a93-a7c7-19ef56ccdace.png">
+
