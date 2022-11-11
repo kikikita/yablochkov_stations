@@ -38,15 +38,16 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 | hyperparameters | value |
 | ------------------- | ---------------|
 | Iterations | 100 |
-| learning_rate | 0.1 |
+| Learning_rate | 0.1 |
 | Custom_loss | AUC, Accuracy, F1 |
 | Boosting_type | Plain |
 | Bootstrap_type | Bernoulli |
 | Subsample| 0.5 |
-| rsm | 0.5 |
-| leaf_estimation_iterations | 5 |
-| max_ctr_complexity | 1 |
+| Rsm | 0.5 |
+| Leaf_estimation_iterations | 5 |
+| Max_ctr_complexity | 1 |
 
+•	Подбор гиперпараметров: learning_rate & iterations
 <img width="975" alt="learningrate" src="https://user-images.githubusercontent.com/110126453/201232085-6279d7c1-9e2b-42ad-aba4-a5e494a6a320.png">
 
 ## Результаты работы
