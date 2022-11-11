@@ -47,6 +47,7 @@ $$ F = (\beta^{2}+1) * {Precision * Recall \over (\beta^{2}Precision + Recall)} 
 | leaf_estimation_iterations | 5 |
 | max_ctr_complexity | 1 |
 
+<img width="975" alt="learningrate" src="https://user-images.githubusercontent.com/110126453/201232085-6279d7c1-9e2b-42ad-aba4-a5e494a6a320.png">
 
 ## Результаты работы
 
